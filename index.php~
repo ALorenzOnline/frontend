@@ -2,7 +2,7 @@
 <?php
 require 'openid.php';
 require 'functions.php';
-require 'testRabbitMQClient.php';
+//require 'testRabbitMQClient.php';
 include 'login.php'; // Includes Login Script
 try{ 
 

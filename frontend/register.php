@@ -24,7 +24,7 @@ include 'testRabbitMQClient.php';
         }
 	
 	//send("add",$steamid); 
-	
+	send("popFri",$steamid);
 	//send("populateFriends");
   
     // Connect to our DB with mysqli(<server>, <username>, <password>, <database>)
@@ -66,6 +66,6 @@ include 'testRabbitMQClient.php';
             header("location: profile.php"); // Redirecting To Other Page
         } 
          
-     //send("popFri",$steamid);
+     
      
 ?>

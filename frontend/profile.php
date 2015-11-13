@@ -30,14 +30,14 @@
                 {
                     // output data of each row
                     $row = $result->fetch_assoc() ;
-                    $sid= $row["steamid"];	
+                      	
 			echo "<b>First Name: </b>" . $row["firstname"];
 			echo "<br> <b>Steam ID: </b>" . $row["steamid"];
                         echo "<br> <b>Email: </b>" . $row["email"];
 			echo "<br> <br> <b>Here is your friends list</b> <br>";
-			//echo $sid;
+			
 
-			send("showFriends",$sid);
+			send("showFriends",$row["steamid"]);
                          
                         echo '<b id="logout"><a href="edit.php?id='. $row["idUser"] .'">Edit Profile</a></b>';
                 } 

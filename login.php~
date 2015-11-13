@@ -16,7 +16,7 @@ if (isset($_POST['submit']))
             $pass = $_POST['pass'];
              
             // Establishing Connection with Server by passing server_name, user_id and password as a parameter
-            $connection = new mysqli("localhost", "root", "password", "profile");
+            $connection = new mysqli("localhost", "root", "steam", "steam");
              
             // Check connection
             if ($connection->connect_error) 

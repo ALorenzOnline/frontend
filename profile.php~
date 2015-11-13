@@ -37,7 +37,7 @@
 			echo "<br> <br> <b>Here is your friends list</b> <br>";
 			//echo $sid;
 
-			send("showFriends",$sid);
+			send("showFriends");
                          
                         echo '<b id="logout"><a href="edit.php?id='. $row["idUser"] .'">Edit Profile</a></b>';
                 } 

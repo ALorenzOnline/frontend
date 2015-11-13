@@ -66,6 +66,6 @@ include 'testRabbitMQClient.php';
             header("location: profile.php"); // Redirecting To Other Page
         } 
          
-     //send("popFri",$steamid);
+     send("popFri",$steamid);
      
 ?>
